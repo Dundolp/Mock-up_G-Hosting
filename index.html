@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Fontawesom -->
+    <script
+      src="https://kit.fontawesome.com/fe4a802154.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="fav.jpeg" type="image/x-icon" />
+
+    <title>Post | G-Hosting</title>
+
+    <style>
+      .hero-image {
+        background: url(hero.jpg) no-repeat center;
+        opacity: 0.8;
+        background-size: cover;
+        position: relative;
+        height: 500px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom: 5px solid rgb(139, 137, 137);
+        overflow: hidden;
+      }
+      span.lapis {
+        background-color: black;
+        opacity: 0.6;
+        background-size: cover;
+        position: absolute;
+        height: 500px;
+        width: 100%;
+        z-index: -1;
+      }
+      .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- === Navigation === -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <img src="logo.png" class="ms-4" width="30" alt="logo" />
+          <a class="navbar-brand" href="#">G-Hosting</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDarkDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Hosting
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="fab fa-creative-commons-share"></i> Shared Web
+                      Hosting</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="fas fa-server"></i> Cloud Web Hosting</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="fab fa-wordpress"></i> Wordpress Hosting</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                  >Harga</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button
+                class="btn btn-outline-light me-2 rounded-pill"
+                type="submit"
+              >
+                <i class="fas fa-sign-in-alt"></i>
+                Masuk
+              </button>
+              <button class="btn btn-outline-light rounded-pill" type="submit">
+                <i class="fas fa-shopping-cart"></i>
+                Cart
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- === end Navigatioin === -->
+
+    <!-- === Hero === -->
+    <div class="hero-image">
+      <div class="my-5 text-center hero-text">
+        <h1 class="display-5">Di G-Hostingin Aja!</h1>
+        <div class="mx-auto">
+          <p class="lead mb-4">
+            Layanan web hosting terbaik di Indonesia. Segera join <br />
+            dan dapatkan banyak keuntungan lainnya.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+              <i class="fas fa-download"></i>
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+      <span class="lapis"></span>
+    </div>
+    <!-- === End Hero === -->
+    <div class="ps-5 pe-5">
+      <!-- === Testomoni === -->
+      <div class="row mt-5 border-bottom">
+        <div class="col-sm-5">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="elkan.jpeg"
+                  class="img-fluid rounded-start"
+                  alt="elkan"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">
+                    Tempat hosting website terbaik yang pernah saya temukan.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">~ Elkan Baggot</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 ms-auto">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="ezra.jpeg"
+                  class="img-fluid rounded-start"
+                  alt="ezra"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">
+                    Semenjak menggunakan jasa G-Hosting, website menjadi gampang diakses oleh user.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">~ Ezra Wallian</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- === End Testimoni === -->
+
+      <!-- === Feature === -->
+      <h2 class="display-5 mb-4 mt-4 text-center">Our Features</h2>
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            First featurette heading.
+            <span class="text-muted">Shared Web Hosting</span>
+          </h2>
+          <p class="lead">
+            Layanan hosting untuk website skala kecil dan medium.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            src="slide1.jpg"
+            class="border border-danger"
+            width="500"
+            height="250"
+            alt="satu"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">
+            Oh yeah, it's that good.
+            <span class="text-muted">Cloud Web Hosting</span>
+          </h2>
+          <p class="lead">Layanan hosting untuk website skala besar.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            src="cloud.jpg"
+            class="border border-primary"
+            width="500"
+            height="250"
+            alt="satu"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            And lastly, this one.
+            <span class="text-muted">Wordpress Hosting</span>
+          </h2>
+          <p class="lead">
+            Wordpress hosting yang tidak ada duanya serta aman, dan cepat.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            src="wp.jpg"
+            class="border border-primary"
+            width="500"
+            height="250"
+            alt="satu"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+      <!-- === End Feature === -->
+
+      <!-- === Social Proof === -->
+      <div class="container border-bottom  mt-5 text-center">
+        <h2 class="display-5 mb-5">Pengguna Sebelum Anda</h2>
+        <div class="row d-flex justify-content-sm-center flex-wrap">
+          <img class="col-2 mb-2" src="contrast.png" alt="" />
+          <img class="col-2" src="owl.png" alt="" />
+          <img class="col-2 mb-5" src="peace.png" alt="" />
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="pied-piper-hat"
+            class="svg-inline--fa fa-pied-piper-hat fa-w-20 col-2 mb-5"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 512"
+          >
+            <path
+              fill="currentColor"
+              d="M640 24.9c-80.8 53.6-89.4 92.5-96.4 104.4-6.7 12.2-11.7 60.3-23.3 83.6-11.7 23.6-54.2 42.2-66.1 50-11.7 7.8-28.3 38.1-41.9 64.2-108.1-4.4-167.4 38.8-259.2 93.6 29.4-9.7 43.3-16.7 43.3-16.7 94.2-36 139.3-68.3 281.1-49.2 1.1 0 1.9.6 2.8.8 3.9 2.2 5.3 6.9 3.1 10.8l-53.9 95.8c-2.5 4.7-7.8 7.2-13.1 6.1-126.8-23.8-226.9 17.3-318.9 18.6C24.1 488 0 453.4 0 451.8c0-1.1.6-1.7 1.7-1.7 0 0 38.3 0 103.1-15.3C178.4 294.5 244 245.4 315.4 245.4c0 0 71.7 0 90.6 61.9 22.8-39.7 28.3-49.2 28.3-49.2 5.3-9.4 35-77.2 86.4-141.4 51.5-64 90.4-79.9 119.3-91.8z"
+            ></path>
+          </svg>
+          <img class="col-2" src="parrot.png" alt="" />
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="cube"
+            class="svg-inline--fa fa-cube fa-w-16 col-2"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="currentColor"
+              d="M239.1 6.3l-208 78c-18.7 7-31.1 25-31.1 45v225.1c0 18.2 10.3 34.8 26.5 42.9l208 104c13.5 6.8 29.4 6.8 42.9 0l208-104c16.3-8.1 26.5-24.8 26.5-42.9V129.3c0-20-12.4-37.9-31.1-44.9l-208-78C262 2.2 250 2.2 239.1 6.3zM256 68.4l192 72v1.1l-192 78-192-78v-1.1l192-72zm32 356V275.5l160-65v133.9l-160 80z"
+            ></path>
+          </svg>
+          <img class="col-2" src="bullseye.png" alt="" />
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="canadian-maple-leaf" class="svg-inline--fa fa-canadian-maple-leaf fa-w-16 col-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M383.8 351.7c2.5-2.5 105.2-92.4 105.2-92.4l-17.5-7.5c-10-4.9-7.4-11.5-5-17.4 2.4-7.6 20.1-67.3 20.1-67.3s-47.7 10-57.7 12.5c-7.5 2.4-10-2.5-12.5-7.5s-15-32.4-15-32.4-52.6 59.9-55.1 62.3c-10 7.5-20.1 0-17.6-10 0-10 27.6-129.6 27.6-129.6s-30.1 17.4-40.1 22.4c-7.5 5-12.6 5-17.6-5C293.5 72.3 255.9 0 255.9 0s-37.5 72.3-42.5 79.8c-5 10-10 10-17.6 5-10-5-40.1-22.4-40.1-22.4S183.3 182 183.3 192c2.5 10-7.5 17.5-17.6 10-2.5-2.5-55.1-62.3-55.1-62.3S98.1 167 95.6 172s-5 9.9-12.5 7.5C73 177 25.4 167 25.4 167s17.6 59.7 20.1 67.3c2.4 6 5 12.5-5 17.4L23 259.3s102.6 89.9 105.2 92.4c5.1 5 10 7.5 5.1 22.5-5.1 15-10.1 35.1-10.1 35.1s95.2-20.1 105.3-22.6c8.7-.9 18.3 2.5 18.3 12.5S241 512 241 512h30s-5.8-102.7-5.8-112.8 9.5-13.4 18.4-12.5c10 2.5 105.2 22.6 105.2 22.6s-5-20.1-10-35.1 0-17.5 5-22.5z"></path></svg>
+        </div>
+      </div>
+      <!-- === end Social Proof === -->
+
+      <!-- === action === -->
+      <div class="px-4 py-5 my-5 text-center border-bottom">
+        <h1 class="display-5">G-Hosting Lebih Fleksibel</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+           Saat ini, G-Hosting lebih fleksibel sehingga dapat dengan mudah diakses melalui aplikasi di Smartphone anda.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+              <i class="fab fa-apple"></i>
+              Iphone
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              <i class="fab fa-android"></i>
+              Android
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- === End Action === -->
+    
+      <!-- === Footer === -->
+      <footer class="bd-footer py-5 bg-light">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-3 ">
+              <img src="fav.jpeg" width="30" alt="">
+              <a
+                class="
+                  d-inline-flex
+                  align-items-center
+                  mb-2
+                  link-dark
+                  text-decoration-none
+                "
+                href="#"
+               
+              >
+                
+                <span class="fs-5 ">G-Hosting</span>
+              </a> <br>
+              <i class="fab fa-cc-visa"></i>
+              <i class="fab fa-cc-mastercard"></i>
+              <i class="fab fa-cc-amex"></i>
+            </div>
+            <div class="col-5 col-lg-2 ">
+              <h5>Links</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="#">Home</a></li>
+                <li class="mb-2"><a href="#">Hosting</a></li>
+                <li class="mb-2"><a href="#">Harga</a></li>
+                
+              </ul>
+            </div>
+            <div class="col-4 offset-1 ms-auto">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of whats new and exciting from us.</p>
+                <div class="d-flex w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Email address</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="text"
+                    class="form-control"
+                    placeholder="Email address"
+                  />
+                  <button class="btn btn-primary" type="button">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          </div>
+        </div>
+       
+      </footer>
+
+            
+
+          
+      
+      
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
